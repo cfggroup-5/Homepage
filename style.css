@@ -1,0 +1,258 @@
+h1 {
+    text-align: center;
+    font-size: 120px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: rgb(42, 212, 241);
+    padding: 0;
+    border: 0;
+    margin: auto;
+    text-shadow: 2px 1px 3px #000000;
+
+
+}
+
+.tagline {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    padding: 3em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: lighter;
+    padding: 1em;
+    text-align: center;
+}
+
+h5 {
+    display: block;
+    max-width: 600px;
+    margin: 0 auto 1em;
+    padding: 0%; 
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    padding: 70px;
+    padding-top: 15px;
+    margin: auto;
+    border: 45px;
+    display: inline-block;
+   
+}
+
+.gif1 {
+    position: absolute;
+    left: 30px;
+    padding-left: 170px;
+}
+
+.gif2 {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    padding-right: 170px;
+}
+
+div .wrapper {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+button {
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+.search {
+    float: left;
+    padding-top: -20%;
+}
+
+
+
+@media only screen and (min-width:200px) {
+font-size: 50px;    
+}
+
+body {
+  background-image: url(background-pic.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar {
+    background-color: rgb(241, 239, 231);
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    box-sizing: border-box;
+    position: relative;
+    border: 1px solid #525252;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+ 
+.navbar ul {
+    display: inline-flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    display: inline;
+    float: left;
+    position: relative;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.active, .navbar ul li:hover {
+    background-color: rgb(86, 86, 231);
+    border-radius: 3px;
+}
+
+.container {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+}
+
+nav {
+    margin-top: 12px;
+}
+
+.section1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+h2 {
+    color: rgb(89, 89, 207);
+    -webkit-text-stroke: 0.5px white;
+}
+
+p {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 40px;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    
+  
+}
+
+h2 {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.pics {
+    display: flex;
+    justify-content: start;
+    padding: 0;
+    margin: 0;
+    margin-left: 25px;
+    float: left;
+}
+
+.pic2 {
+    width: 380px;
+    height:280px;
+    padding: 0px;
+    margin: 25px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h3 {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Caveat', cursive;
+    text-decoration: underline;
+    -webkit-text-stroke: 0.5px black;
+    color: cornsilk;
+}
+
+div .countries {
+    margin: 0px;
+    padding: 0px;
+}
+
+.text {
+    display: flex;
+    justify-content: start;
+    padding: 0;
+    margin: 0;
+    margin-left: 25px;
+    float: left;
+}
+
+.logo-text {
+    width: 380px;
+    height: 70px;
+    padding: 0px;
+    margin: 25px;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-decoration: underline;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+    color: cornsilk;
+}
+
+h4 {
+    font-size: 45px;
+    margin-top: 0;
+    padding-top: 0;
+    font-family: 'Caveat', cursive;
+    margin-left: 25px;
+    color: cornsilk;
+    -webkit-text-stroke: 0.5px black;
+}
+
+h6 {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
