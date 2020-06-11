@@ -1,6 +1,13 @@
 body {
     font-family: 'PT Sans Narrow', sans-serif;
     color: rgb(42, 212, 241);
+    background-image: url(background-pic.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
   }
   
 
